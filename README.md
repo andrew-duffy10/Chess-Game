@@ -38,6 +38,6 @@ Future Updates/Known issues
                                                    a pawn is promoted instead of defaulting to Queen.
 4. Add a Checkmate screen        - Currently the game ends with a soft-mate, no moves
                                    can be made and no message is displayed. Add a
-                                   "Game OVer!" message when Checkmate occurs.
+                                   "Game Over!" message when Checkmate occurs.
                                 
 
