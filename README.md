@@ -34,8 +34,8 @@ Future Updates/Known issues
                                    at multiple difficulty levels.
 2. Add "Pick Sides" option       - Allow the user to pick which side is displayed at 
                                    the bottom of the screen.
-3. Add a piece-type selector     - Display a list of promotion types to the user when
-   for pawn promotions             a pawn is promoted instead of defaulting to Queen.
+3. Add a piece-type selector for pawn promotions - Display a list of promotion types to the user when
+                                                   a pawn is promoted instead of defaulting to Queen.
 4. Add a Checkmate screen        - Currently the game ends with a soft-mate, no moves
                                    can be made and no message is displayed. Add a
                                    "Game OVer!" message when Checkmate occurs.
