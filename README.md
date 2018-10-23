@@ -26,13 +26,13 @@ Model: The Model is used to keep track of the state of the board. An instance of
         color on the board. This is done by using Java's BitSet class. Each piece gets a 64-bit BitSet, 
         each bit representing a slot on the Chess board. A zero in a BitSet (or false) represents an empty
         slot. A one (or true) means there is a piece of that type on the board. The Piece class is abstracted
-        into the different types of Chess pieces so that the canMove method correctly outputs whether the
+        into the different types of Chess pieces so the canMove method correctly outputs whether the
         move is valid or not (except for a few special moves, which are handled in the movePiece method).
         
 
 View: The View is used to display the state of the board. An instance of this View has two parts, a Frame and 
       a Panel. The Frame acts as a container for the Panel and handles all
-      user input (mouse clicks). When the user clicks somewhere in the frame, the values are passed into the
+      user input (mouse clicks). When the user clicks somewhere in the frame, the x/y values are passed into the
       Panel's repaint method. The Panel then uses those values to draw the active Pieces in the game
       on a checkered board. When a Piece is selected, the slot that it resides in turns Orange. If a King
       is checked, the slot that it resides in turns Red. Otherwise, the slots are White and Black. The Piece 
